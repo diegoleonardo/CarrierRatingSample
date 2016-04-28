@@ -1,0 +1,50 @@
+﻿@model CarrierRating.WebApplication.Models.ViewModels.RatingViewModel
+
+@{
+    ViewBag.Title = "Ratings";
+}
+<h2></h2>
+<p></p>
+<p></p>
+<h2>Carriers to rating</h2>
+<table class="table table-inverse">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Average Rate</th>
+            <th>Operation</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model.CarriersToRating)
+    {
+        <tr>
+            <td>
+                @item.GetFullName()
+            </td>
+            <td>@item.GetAverageRate()</td>
+            <td>
+                @Html.ActionLink("Rating", "Rating", "Rating", new { carrierId = @item.Id,  }, new { @class = "btn btn-primary" })
+            </td>
+        </tr>
+    }
+</table>
+<p></p>
+<p></p>
+<h2>Carriers rated for you</h2>
+<table class="table table-inverse">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Rate</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model.Ratings)
+    {
+        <tr>
+            <td>
+                @item.Carrier.GetFullName()
+            </td>
+            <td>@item.Rate</td>
+        </tr>
+    }
+</table>

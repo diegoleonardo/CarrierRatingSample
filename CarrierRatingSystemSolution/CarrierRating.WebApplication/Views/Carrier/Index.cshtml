@@ -1,0 +1,28 @@
+﻿@model CarrierRating.WebApplication.Models.ViewModels.CarrierViewModel
+@{
+    ViewBag.Title = "Carrier Rating";
+}
+<h2>Carrier</h2>
+@Html.ActionLink("Create Carrier", "Create", "Carrier")
+<p></p>
+<p></p>
+<table class="table table-inverse">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Average Rate</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model.Carriers)
+    {
+        <tr>
+            <td>@item.GetFullName()</td>
+            <td>@item.GetAverageRate()</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", "Carrier", new { id = @item.Id }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Delete", "Delete", "Carrier", new { id = @item.Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+</table>

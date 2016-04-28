@@ -1,0 +1,10 @@
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\CarrierRating.Domain.dll
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\CarrierRating.Domain.pdb
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Bson.dll
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Driver.dll
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Bson.xml
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Driver.xml
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\obj\Debug\CarrierRating.Domain.dll
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\obj\Debug\CarrierRating.Domain.pdb
+C:\Users\diego\Documents\Visual Studio 2015\Projects\CarrierRatingSystemSolution\CarrierRating.Domain\obj\Debug\CarrierRating.Domain.csprojResolveAssemblyReference.cache
