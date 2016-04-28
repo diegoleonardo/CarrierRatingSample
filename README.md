@@ -1,5 +1,5 @@
 # CarrierRatingSample
-A simple Aspnet MVC application to rating carriers, developed with N-tier(or Layers) architecture and Repository pattern. This application uses .NET technologies, MongoDB Driver, Identity based on Mongo and SpecFlow to support the BDD's development methodology.
+A simple Aspnet MVC application to carriers rating, developed with N-tier(or Layers) architecture and Repository pattern. This application uses .NET technologies, MongoDB Driver, Identity based on Mongo and SpecFlow to support the BDD's development methodology.
 
 # First Step - Install MongoDB
 this step is easy, Given that the documentation of Mongo is much clear.
