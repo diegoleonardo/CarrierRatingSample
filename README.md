@@ -5,7 +5,7 @@ A simple Aspnet MVC application of rating carriers. This application uses .NET t
 this step is easy, Given that the documentation of Mongo is much clear.
 - Link to MongoDB: https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
 
- If you aren't acquainted with usage of Mongo with C#, this link can bring the light to your life, small padawan
+If you aren't acquainted with usage of Mongo with C#, this link can bring the light to your life, small padawan
 - Link to MongoDB with C# Driver: https://docs.mongodb.org/getting-started/csharp/client/
 
 # Second Step - Install Robomongo
