@@ -11,3 +11,8 @@ If you aren't acquainted with usage of MongoDB with C#, this link can lead you t
 # Second Step - Install Robomongo
 This app is very useful to manage your Mongo's collections . To Install this app is very easy. 
 - Link to Robomongo: https://robomongo.org/
+
+# Third Step - Help me
+If possible, help me to evolve this application bringing your suggestions, feedbacks, skills and experience. Thank you!
+
+Obs: If you have any problem, contact me please.
