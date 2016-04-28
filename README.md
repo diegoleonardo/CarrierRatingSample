@@ -2,7 +2,7 @@
 A simple Aspnet MVC application to carriers rating that was developed with N-tier(or Layers) architecture and Repository pattern. This application uses .NET technologies, MongoDB Driver, Identity based on Mongo and SpecFlow to support the BDD's development methodology.
 
 # First Step - Install MongoDB
-this step is easy, Given that the documentation of Mongo is much clear.
+This step is easy, Given that the documentation of Mongo is much clear.
 - Link to MongoDB: https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
 
 If you aren't acquainted with usage of MongoDB with C#, this link can lead you to the light, small padawan
