@@ -8,7 +8,7 @@ namespace CarrierRating.Domain.Entities.MongoEntities
     {
         [BsonId]
         public ObjectId Id { get; set; }
-        DateTime CreationDate { get; }
+        public DateTime CreationDate { get; }
         public MongoEntity()
         {
             CreationDate = DateTime.Now;
