@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{30A316A0-84E5-4FFC-9550-3C59A34A9082}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Validation", "3 - Validation", "{037795AC-20E0-4FF0-AD7B-65F2AF22E4C2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Validation", "2 - Validation", "{037795AC-20E0-4FF0-AD7B-65F2AF22E4C2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{7A04CDE3-C1D6-4E85-B9B7-B235650C0B6F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{7A04CDE3-C1D6-4E85-B9B7-B235650C0B6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{A4E1C8E7-BE1D-4452-B71C-4A0E91974DF1}"
 EndProject
