@@ -186,6 +186,11 @@ $RECYCLE.BIN/
 # Visual Studio temp something
 .vs/
 
+**/bin/Debug/*.dll
+**/bin/Debug/*.pdb
+**/obj/Debug/*.dll
+**/obj/Debug/*.pdb
+
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
