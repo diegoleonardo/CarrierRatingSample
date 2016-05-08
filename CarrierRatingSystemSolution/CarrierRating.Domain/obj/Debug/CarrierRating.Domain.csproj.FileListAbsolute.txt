@@ -15,5 +15,6 @@ C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\
 C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Driver.dll
 C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Bson.xml
 C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\CarrierRating.Domain\bin\Debug\MongoDB.Driver.xml
+C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\CarrierRating.Domain\obj\Debug\CarrierRating.Domain.csprojResolveAssemblyReference.cache
 C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\CarrierRating.Domain\obj\Debug\CarrierRating.Domain.dll
 C:\Users\diego\Documents\Github\CarrierRatingSample\CarrierRatingSystemSolution\CarrierRating.Domain\obj\Debug\CarrierRating.Domain.pdb
