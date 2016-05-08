@@ -16,9 +16,12 @@ namespace CarrierRating.WebApplication.Controllers
         {
             var context = ApplicationIdentityContext.Create();
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context.Users));
-            var usuario = userManager.FindByName(requestContext.HttpContext.User.Identity.Name);
-            if (usuario != null)
-                UserBase = usuario.UserInfo;
+            var usuarioIdentityName = requestContext.HttpContext.User.Identity.Name;
+            if (!string.IsNullOrWhiteSpace(usuarioIdentityName)) { 
+                var usuario = userManager.FindByName(requestContext.HttpContext.User.Identity.Name);
+                if (usuario != null)
+                    UserBase = usuario.UserInfo;
+            }
             base.Initialize(requestContext);
         }
     }

@@ -11,8 +11,12 @@ namespace CarrierRating.WebApplication.App_Start
     {
         public static ApplicationIdentityContext Create()
         {
-            var mongoClient = new MongoClient("mongodb://localhost:27017");
-            var database = mongoClient.GetDatabase("CarriersRatingSystem");
+            MongoClientSettings settings = new MongoClientSettings();
+            settings.Server = new MongoServerAddress("ds017582.mlab.com", 17582);
+            var credencial = MongoCredential.CreateMongoCRCredential("carriersratingsystem", "d.dummheit@gmail.com", "josel1to");
+            settings.Credentials = new[] { credencial };
+            var mongoClient = new MongoClient(settings);
+            var database = mongoClient.GetDatabase("carriersratingsystem");
             var users = database.GetCollection<ApplicationUser>("users");
             var roles = database.GetCollection<IdentityRole>("roles");
             return new ApplicationIdentityContext(users, roles);
