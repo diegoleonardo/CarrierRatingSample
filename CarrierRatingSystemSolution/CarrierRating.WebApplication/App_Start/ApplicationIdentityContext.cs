@@ -13,7 +13,7 @@ namespace CarrierRating.WebApplication.App_Start
         {
             MongoClientSettings settings = new MongoClientSettings();
             settings.Server = new MongoServerAddress("ds017582.mlab.com", 17582);
-            var credencial = MongoCredential.CreateMongoCRCredential("carriersratingsystem", "d.dummheit@gmail.com", "josel1to");
+            var credencial = MongoCredential.CreateCredential("carriersratingsystem", "d.dummheit@gmail.com", "josel1to");
             settings.Credentials = new[] { credencial };
             var mongoClient = new MongoClient(settings);
             var database = mongoClient.GetDatabase("carriersratingsystem");
